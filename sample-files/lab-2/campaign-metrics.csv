@@ -1,0 +1,11 @@
+Campaign,Channel,Impressions,Clicks,Conversions,Spend,Start_Date,End_Date,Status
+Product_Launch,Email,50000,2500,150,5000,2025-03-01,2025-03-15,Completed
+Product_Launch,Social,100000,5000,200,8000,2025-03-01,2025-03-15,Completed
+Brand_Awareness,LinkedIn,75000,3500,80,6000,2025-02-15,2025-03-15,Completed
+Brand_Awareness,Display,200000,8000,120,10000,2025-02-15,2025-03-15,Completed
+Webinar_Series,Email,25000,1500,300,3000,2025-03-01,2025-03-31,Active
+Webinar_Series,LinkedIn,30000,2000,250,4000,2025-03-01,2025-03-31,Active
+Content_Hub,SEO,75000,10000,500,2000,2025-01-01,2025-03-31,Active
+Content_Hub,Social,50000,4000,180,3500,2025-01-01,2025-03-31,Active
+Trial_Signup,Search,100000,12000,800,15000,2025-03-01,2025-03-31,Active
+Trial_Signup,Display,150000,6000,200,12000,2025-03-01,2025-03-31,Active

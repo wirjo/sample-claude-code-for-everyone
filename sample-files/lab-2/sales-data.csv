@@ -1,0 +1,11 @@
+Company,Contact,Stage,Value,Last_Contact,Next_Step,Risk_Level
+Acme Corp,John Smith,Proposal,50000,2025-03-10,Follow-up call scheduled 3/17,Medium
+TechStart,Jane Doe,Discovery,25000,2025-03-12,Send demo link and pricing,Low
+Global Inc,Bob Johnson,Negotiation,75000,2025-03-14,Contract review with legal,Low
+StartupXYZ,Alice Chen,Qualified,15000,2025-03-08,Needs follow-up ASAP,High
+Enterprise Co,Tom Wilson,Proposal,100000,2025-03-13,Decision by month-end,Medium
+FastGrow LLC,Sarah Lee,Discovery,30000,2025-03-15,Technical deep dive needed,Low
+MegaCorp,David Brown,Negotiation,200000,2025-03-11,Final pricing discussion,Medium
+SmallBiz Inc,Emma White,Qualified,10000,2025-03-06,No response to last 2 emails,High
+DataCorp,James Taylor,Proposal,60000,2025-03-14,Waiting on internal approval,Medium
+CloudStart,Lisa Anderson,Discovery,20000,2025-03-13,Schedule architecture review,Low

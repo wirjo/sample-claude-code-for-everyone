@@ -1,0 +1,96 @@
+Product Brief - TaskFlow (DRAFT)
+Last updated: sometime in February
+Author: Jamie Chen
+
+== The Problem ==
+
+Freelancers waste 5-10 hours/week on admin tasks - invoicing, time tracking, client communication, project status updates. I've talked to about 30 freelancers over the past 2 months and the pattern is clear. They became freelancers to do creative/strategic work, not to be their own admin assistant.
+
+Current solutions are fragmented: Toggl for time, QuickBooks for invoicing, Notion for projects, Gmail for client updates. Nobody has put it together.
+
+== What We're Building ==
+
+TaskFlow - an all-in-one workspace for freelancers that combines time tracking, invoicing, project management, and client communication in one tool. AI-powered so it learns your patterns and automates the boring stuff.
+
+Target: solo freelancers and small agencies (1-5 people) in creative/consulting fields
+Price point: thinking $29/month? Maybe $19? Need to figure this out
+Revenue goal: $10K MRR within 6 months of launch
+
+== Customer Interview Notes ==
+
+Interview 1 - Sarah M. (Graphic Designer, freelance 4 years)
+- Uses Toggl + FreshBooks + Asana + Slack
+- "I spend my Sunday evenings doing invoices. SUNDAY EVENINGS. I became a freelancer to have freedom and I'm doing accounting on Sundays"
+- Biggest pain: reconciling time tracked in Toggl with invoices in FreshBooks. Always misses billable hours.
+- Would pay "up to $30/month if it actually saved me 5 hours a week"
+- Concern: "I've tried 3 'all-in-one' tools before. They all do everything poorly instead of one thing well"
+
+Interview 2 - Marcus R. (Marketing Consultant, freelance 2 years)
+- Uses spreadsheets for everything (!)
+- "I know I should use proper tools but the setup time for each new tool kills me. By the time I've configured Toggl I could have just tracked time in a spreadsheet"
+- Sends invoices as PDF attachments in email. Has been burned by late payments.
+- Biggest pain: doesn't know which clients are actually profitable. Suspects some are underwater but can't prove it.
+- Would switch if: "it takes less than 10 minutes to set up and I can see client profitability on day one"
+
+Interview 3 - Priya K. (UX Researcher, freelance 6 years, has 2 contractors)
+- Most sophisticated setup: Harvest + QuickBooks + Basecamp
+- "The tools work fine individually. The problem is I'm the glue holding them together. Every week I export CSVs and manually reconcile"
+- Biggest pain: giving contractors access to the right projects without exposing client rates
+- Has lost an estimated $15K/year in unbilled hours because she forgets to start timers
+- Would pay more for: "automatic time tracking that just KNOWS I'm working on the Acme project when I open the Acme Figma file"
+
+Interview 4 - David L. (Web Developer, freelance 1 year, came from agency)
+- "At the agency, all this was handled for me. I had no idea how much overhead freelancing involves"
+- Currently using: nothing formal. Tracks hours in Apple Notes. Invoices via email with a Word template.
+- Biggest pain: scope creep. Clients ask for "one more thing" and he doesn't track the extra hours
+- Lost a $8K project because he underestimated time by 40%
+- Wants: "something that warns me when a project is going over budget before it's too late"
+
+Interview 5 - Aisha T. (Content Strategist, freelance 3 years)
+- Heavy Notion user, built her own tracking system
+- "I've literally built my own janky version of what you're describing in Notion. It works but it's held together with duct tape"
+- Biggest pain: client communication. Status updates are manual emails she dreads writing
+- Spends 3 hours/week just on status update emails
+- Would kill for: "auto-generated weekly client updates based on what I actually did that week"
+
+== Competitor Notes ==
+
+Toggl Track - good time tracking, weak invoicing. $20/month
+Harvest - solid time+invoicing combo but dated UI. $12/month
+Bonsai - freelancer focused, covers contracts+invoicing+taxes. $29/month. Closest competitor but no AI, weak project management
+HoneyBook - more for event/creative businesses. $39/month. Too heavy.
+Monday.com - enterprise overkill. Not built for freelancers.
+
+Nobody is doing AI-powered automation for freelancers specifically.
+
+== Feature List (rough) ==
+
+Must have for MVP:
+- Smart time tracking (auto-detect projects from apps/files open)
+- One-click invoicing from tracked time
+- Client portal (clients see project status without you sending emails)
+- Basic project management (tasks, deadlines, milestones)
+- Dashboard showing profitability per client
+
+Nice to have:
+- Auto-generated weekly status emails to clients
+- Scope creep alerts (when project hours approach estimate)
+- Expense tracking
+- Contract templates
+- Multi-currency support
+- Tax preparation summaries
+- Proposal/quote generator
+
+== Open Questions ==
+- Build as web app or desktop app? Web is faster to ship but desktop needed for app-level time tracking
+- How to handle the "cold start" problem? Tool is most useful with historical data but new users have none
+- Integration strategy: build everything ourselves or integrate with existing tools?
+- Mobile app needed for launch?
+- How to differentiate from Bonsai which is already pretty good?
+
+== Random Thoughts ==
+- Maybe start with just time tracking + invoicing and expand from there?
+- The "client profitability" insight is what gets people excited in interviews
+- Every single person mentioned hating status update emails - there's something there
+- Need to figure out if $29/month positions us wrong against Bonsai
+- Should probably talk to more contractors/small agencies, not just solos

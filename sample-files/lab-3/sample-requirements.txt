@@ -1,0 +1,38 @@
+New Feature Request: User Onboarding Flow
+
+Background:
+We're seeing 60% drop-off rate for new users within first 7 days. Customer success team reports users don't understand key features.
+
+Requirements:
+- Should guide new users through key features step-by-step
+- Must work on both mobile and desktop platforms
+- Include video tutorials (2-3 minutes each) for main features
+- Track completion rates for each onboarding step
+- Integration with our analytics platform (Mixpanel)
+- Allow users to skip and return later
+- Personalize based on user role (admin vs regular user)
+
+Success metrics:
+- Increase 7-day retention from 40% to 80%
+- Reduce time-to-first-value from 3 days to 1 day
+- Achieve 80% onboarding completion rate
+- Decrease support tickets for "how do I" questions by 50%
+
+Technical considerations:
+- Should not impact app load time
+- Needs to work with existing authentication system
+- Must support A/B testing for different onboarding flows
+- Consider accessibility requirements (WCAG 2.1 AA)
+
+Timeline:
+- Design: 2 weeks
+- Development: 4 weeks
+- Testing: 1 week
+- Launch target: End of Q2 2025
+
+Stakeholders:
+- Product: Sarah (owner)
+- Engineering: Mike
+- Design: Lisa
+- Customer Success: Jennifer
+- Marketing: Tom

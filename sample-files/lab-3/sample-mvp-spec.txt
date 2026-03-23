@@ -1,0 +1,112 @@
+TaskFlow MVP Specification
+Version: 0.3 (working draft)
+Last updated: March 2026
+
+---
+
+PROBLEM STATEMENT
+
+Freelancers and solo consultants spend 5-10 hours per week on administrative tasks that don't generate revenue: tracking time, creating invoices, sending client status updates, and managing project details across 3-5 disconnected tools.
+
+The result: lost billable hours, late invoices, inaccurate profitability data, and the "Sunday evening admin session" that kills the freelancer lifestyle.
+
+---
+
+PROPOSED SOLUTION
+
+TaskFlow is a unified workspace that combines time tracking, invoicing, project management, and client communication in one tool. It uses AI to automate repetitive admin tasks so freelancers can focus on billable work.
+
+Key differentiator: AI-powered automation that learns your patterns. Auto-detect which project you're working on. Auto-generate client status updates. Alert you before scope creep becomes a problem.
+
+---
+
+TARGET USER
+
+Primary: Solo freelancers in creative and consulting fields (designers, developers, writers, marketers, researchers) who have been freelancing for 1-5 years and currently use 3+ tools for admin.
+
+Secondary: Small agencies (2-5 people) who need lightweight project management with contractor access controls.
+
+Not for: Enterprise teams, hourly workers in non-knowledge fields, freelancers who only do one-off projects.
+
+---
+
+CORE USER FLOWS
+
+Flow 1: Daily Work Tracking
+1. User opens TaskFlow (or it runs in background)
+2. System detects active applications and suggests current project
+3. User confirms or corrects the project assignment
+4. Time is tracked automatically with project tags
+5. At end of day, user reviews time log and makes corrections
+6. System learns from corrections to improve future detection
+
+Flow 2: Weekly Invoicing
+1. System shows unbilled time grouped by client and project
+2. User selects time entries to include on invoice
+3. System generates professional invoice with line items from time entries
+4. User reviews and sends to client via email or client portal
+5. System tracks payment status and sends reminders for overdue invoices
+
+Flow 3: Client Status Update
+1. System aggregates week's activity per client (time spent, tasks completed, milestones reached)
+2. System generates draft status update email in professional tone
+3. User reviews, edits if needed, and sends
+4. Client can also view live project status in their portal
+
+Flow 4: Profitability Check
+1. User opens dashboard
+2. Sees per-client breakdown: hours tracked, amount billed, amount collected, effective hourly rate
+3. Can compare clients side by side
+4. System flags clients where effective rate drops below user's minimum threshold
+
+---
+
+SUCCESS METRICS (First 90 Days)
+
+- 500 beta signups in first 30 days
+- 100 active users (tracked time at least 3 days/week) by day 60
+- 50 paid conversions ($29/month) by day 90
+- Net Promoter Score > 40 from beta cohort
+- Average 3+ hours/week saved per active user (self-reported)
+
+---
+
+CONSTRAINTS
+
+- Solo founder (Jamie) - no engineering team
+- Budget: $5K for infrastructure and tools in first 3 months
+- Must launch MVP within 8 weeks
+- Web app first (desktop and mobile can follow)
+- Must work with existing bank accounts for payment tracking (no need to process payments ourselves initially)
+
+---
+
+WHAT'S OUT OF SCOPE FOR MVP
+
+- Desktop app with native OS integration
+- Mobile app
+- Multi-currency support
+- Tax preparation features
+- Contract/proposal generation
+- Direct payment processing (will link to Stripe/PayPal invoices)
+- Team features beyond basic contractor time viewing
+- API for third-party integrations
+
+---
+
+TECHNICAL ASSUMPTIONS
+
+- Web app built with modern framework (React or similar)
+- Cloud hosted (likely AWS)
+- AI features via Claude API for status generation and pattern learning
+- OAuth for Google/Microsoft calendar integration
+- Simple database for time entries, projects, clients, invoices
+
+---
+
+RISKS
+
+1. Cold start problem: Tool is most valuable with historical data, but new users start with nothing. Mitigation: import from Toggl/Harvest CSV exports.
+2. Time tracking accuracy: Auto-detection may frustrate users if it guesses wrong frequently. Mitigation: always confirm, never auto-bill.
+3. Bonsai competition: They have a 5-year head start. Mitigation: our AI automation layer is genuinely differentiated.
+4. Solo founder risk: If Jamie gets sick or burned out, development stops. Mitigation: ship small, ship often, don't over-engineer.

@@ -1,0 +1,30 @@
+Team sync - March 15, 2025
+
+Attendees: Sarah (PM), Mike (Engineering), Lisa (Design), Tom (Sales)
+
+Sarah: Let's review the Q2 roadmap. We need to prioritize the new dashboard feature based on customer feedback. We've had at least 15 customers asking for better data visualization.
+
+Mike: The backend work is estimated at 3 weeks. We'll need to refactor the data pipeline and add new API endpoints. We should start next sprint to hit the Q2 deadline.
+
+Lisa: I'll need 1 week for design once we finalize the requirements. Can we review mockups by end of this week? I want to make sure we're aligned on the layout before development starts.
+
+Tom: Customers are asking for this constantly. Priority accounts include Acme Corp and TechStart. Acme said this is blocking their expansion to the enterprise tier. We could lose the deal if we don't deliver soon.
+
+Sarah: Okay, let's make this our top priority. Mike, can you break down the technical requirements?
+
+Mike: Sure. We need to add chart libraries, implement real-time data updates, and ensure it's performant with large datasets. I'll have the tech spec ready by Tuesday.
+
+Lisa: Once I see the tech spec, I can start on mockups. I'm thinking we do a dashboard builder where users can customize their views.
+
+Sarah: Love that idea. Let's validate with customers first though. Tom, can you set up some customer calls?
+
+Tom: Absolutely. I'll reach out to Acme and TechStart this week. Should have feedback by Friday.
+
+Action items:
+- Mike writes technical specification by Tuesday EOD
+- Tom schedules customer feedback sessions with Acme and TechStart by Friday
+- Lisa creates initial mockups by next Friday
+- Sarah schedules design review meeting for next Monday
+- Mike starts backend development sprint planning
+
+Next meeting: March 22, 2:00 PM

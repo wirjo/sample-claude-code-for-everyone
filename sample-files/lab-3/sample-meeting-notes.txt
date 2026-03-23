@@ -1,0 +1,17 @@
+Product planning meeting - March 18, 2025
+
+Need to discuss new feature for real-time collaboration
+
+Talked about user feedback - main complaint is loading time when multiple users access the dashboard simultaneously. Users report 5-10 second delays during peak hours.
+
+Engineering says we can optimize the queries and add caching layer. Mike estimates 2 weeks for backend optimization.
+
+Design suggests we add a loading indicator and show who else is viewing the dashboard in real-time. Lisa thinks we can also add collaborative cursors like in Figma.
+
+Decision: Implement both - query optimization + visual feedback for collaboration
+Timeline: 2 weeks for optimization, 1 week for design and frontend implementation
+Owner: Mike for backend optimization and caching, Lisa for collaborative UI design, Tom to validate with customers
+
+Additional discussion: Should we add commenting feature? Parking this for now, will revisit after initial launch.
+
+Next steps: Mike to create technical spec by Friday, Lisa to mockup collaborative features by next week, schedule customer validation calls with 3 beta testers

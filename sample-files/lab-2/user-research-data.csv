@@ -1,0 +1,16 @@
+User_ID,Feature,Rating,Feedback,Priority,User_Role
+U001,Dashboard,4,Easy to use but needs more customization options,High,Manager
+U002,Dashboard,3,Needs more filters and date range options,Medium,Analyst
+U003,Reports,5,Love the export feature - saves me hours,High,Manager
+U004,Reports,2,Too slow when loading large datasets,High,Analyst
+U005,Search,4,Works well but could use fuzzy matching,Low,User
+U006,Dashboard,5,Exactly what I needed for executive reviews,High,Executive
+U007,Reports,3,Good but PDF export formatting is broken,Medium,Manager
+U008,Search,2,Can't find older records easily,High,Analyst
+U009,Dashboard,4,Great charts but needs more visualization types,Medium,Manager
+U010,Reports,4,Scheduling automated reports would be huge,High,Analyst
+U011,Search,5,Fast and accurate,Low,User
+U012,Dashboard,1,Can't customize widgets - very frustrating,High,Manager
+U013,Reports,4,Good variety but needs better date comparisons,Medium,Analyst
+U014,Search,3,Results are relevant but UI is confusing,Medium,User
+U015,Dashboard,5,Mobile view is excellent,Low,Executive
